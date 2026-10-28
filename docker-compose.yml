@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  msi-engine:
+    build: .
+    image: ai-msi-orchestrator:dev
+    volumes:
+      - ./out:/tmp/out
